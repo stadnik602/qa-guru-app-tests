@@ -6,6 +6,7 @@ def browser_setup():
     browser.config.headless = False
     browser.config.browser_name = 'chrome'
     browser.config.window_width = '1920'
+    browser.config.window_height = '1080'
 
     yield
 
